@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Barbearia Dedel du Corte - Agendamento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <p class="marca-eyebrow">Barbearia</p>
+    <h1 class="marca-nome">Dedel du Corte</h1>
+    <p class="subtitulo">Escolha o serviço, o dia e o horário</p>
+  </header>
+  <div class="faixa-listrada"></div>
+
+  <form id="form-agendamento">
+    <label for="nome">Seu nome:</label>
+    <input type="text" id="nome" required>
+
+    <label for="servico">Serviço:</label>
+    <select id="servico" required>
+      <option value="Corte de cabelo">Corte de cabelo — R$ 35</option>
+      <option value="Barba">Barba — R$ 20</option>
+      <option value="Corte + Barba">Corte + Barba — R$ 50</option>
+    </select>
+
+    <label for="data">Data:</label>
+    <input type="date" id="data" required>
+
+    <label for="hora">Horário:< vão ser preenchid/label>
+        <select id="hora" required disabled>
+      <option value="">Escolha uma data primeiro</option>
+    </select>
+      <!-- As opções de horárioas automaticamente pelo JavaScript -->
+    </select>
+
+    <button type="submit">Confirmar agendamento</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

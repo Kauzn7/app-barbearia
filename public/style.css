@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600;800&family=Inter:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  background-color: #1B1712;
+  color: #EDE3D3;
+}
+
+.marca-eyebrow {
+  font-family: 'Bitter', serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #C6A15B;
+  margin: 0;
+  font-size: 13px;
+}
+
+.marca-nome {
+  font-family: 'Bitter', serif;
+  font-weight: 800;
+  font-size: 34px;
+  margin: 6px 0 0;
+  color: #EDE3D3;
+}
+
+.topo h1 {
+  font-family: 'Bitter', serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin: 0;
+  color: #EDE3D3;
+}
+
+.subtitulo {
+  color: #A8977E;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.faixa-listrada {
+  height: 6px;
+  margin: 0 0 30px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #7A2E2E,
+    #7A2E2E 10px,
+    #C6A15B 10px,
+    #C6A15B 20px,
+    #EDE3D3 20px,
+    #EDE3D3 30px
+  );
+  border-radius: 3px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #292219;
+  padding: 24px;
+  border-radius: 6px;
+  border-left: 4px solid #C6A15B;
+}
+
+label {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #A8977E;
+}
+
+input, select, button {
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 4px;
+  border: 1px solid #443a2c;}
+  .titulo-secao {
+  font-family: 'Bitter', serif;
+  color: #C6A15B;
+  font-size: 20px;
+  margin: 30px 0 14px;
+}
+
+.grade-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.foto-placeholder {
+  aspect-ratio: 1 / 1;
+  background-color: #292219;
+  border: 1px dashed #443a2c;
+  border-radius: 4px;
+}
+
+.botao-instagram {
+  display: block;
+  text-align: center;
+  margin-top: 24px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #C6A15B;
+  color: #C6A15B;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.botao-instagram:hover {
+  background-color: #292219;
+}
+
+.botao-agendar {
+  display: block;
+  text-align: center;
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 4px;
+  background-color: #C6A15B;
+  color: #1B1712;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.botao-agendar:hover {
+  background-color: #d9b876;
+}
